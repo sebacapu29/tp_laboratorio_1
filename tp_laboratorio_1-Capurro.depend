@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1472902111 source:d:\users\capu\desktop\utn\2º cuatrimestre 2016\programacion i - laboratorio i\tp_laboratorio_1\funciones.c
+	<stdio.h>
+
+1473336554 source:d:\users\capu\desktop\utn\2º cuatrimestre 2016\programacion i - laboratorio i\tp_laboratorio_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FuncionesMat.h"
+
+1473037351 d:\users\capu\desktop\utn\2º cuatrimestre 2016\programacion i - laboratorio i\tp_laboratorio_1\funcionesmat.h
+
