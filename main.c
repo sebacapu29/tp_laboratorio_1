@@ -5,8 +5,7 @@
 
 /** \brief Muestra el menu de opciones
  *
- * \param iComienzo es un valor para validar las opciones
- * \param iFinal para validar las opciones
+ * \param vectorRango es un array de enteros que contiene los rangos de opciones a validar
  * \param operandoUno es el valor del primer operando
  * \param operandoDos es el valor del segundo operando
  * \param banderaUno es el valor que indica si se ingreso un valor en operandoUno
@@ -17,17 +16,16 @@
 
 int Menu(int vectorRango[], float operandoUno, float operandoDos, int banderaUno, int banderaDos);
 
-/** \brief Valida que la opcion elegida este en el rango solicitado por icomienzo e iFinal
+/** \brief Valida que la opcion elegida este en el rango solicitado por el vectorRangos.
  *
  * \param opcion, entero a validar
- * \param iComienzo valor entero de la primera opcion.
-  * \param iFinal valor entero de la ultima opcion
+ * \param vectorRango es un array de enteros que contiene los rangos de opciones a validar.
  * \return Devuelve el numero entero validado.
  *
  */
 
-//
-int ValidaOpcion(int opcion, int vector[]);
+
+int ValidaOpcion(int opcion, int vectorRango[]);
 
 /** \brief Solicita los datos al usuario
  *
@@ -40,10 +38,10 @@ float SolicitarDato(int bandera);
 /** \brief La funcion muestra por pantalla un cartel
  *
  * \param operando es el valor flotante precargado por el usuario
- * \param caracter muestra el caracter correspondiente a su operando
- * \param valor es un caracter que representa al operando a reemplazar
- * \param bandera es el valor entero que indica si se debe mostrar el cartel generico o con el valor
- * precargado del operando
+ * \param cadena, es una array de caracteres compuesta por los datos del operando 1 o 2 que seran reemplazados por
+ * El valor numerico flotante.
+ * \param bandera es el valor entero que indica si se debe mostrar el cartel generico  o con el valor
+ * precargado del operando.
  * \param numOperando es el valor entero que indicara en el cartel el numero de operando.
  * \return No devuelve nada
  *
