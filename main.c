@@ -42,7 +42,6 @@ float SolicitarDato(int bandera);
  * El valor numerico flotante.
  * \param bandera es el valor entero que indica si se debe mostrar el cartel generico  o con el valor
  * precargado del operando.
- * \param numOperando es el valor entero que indicara en el cartel el numero de operando.
  * \return No devuelve nada
  *
  */
